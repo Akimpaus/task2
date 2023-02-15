@@ -25,5 +25,5 @@ g++ -o client client.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-netw
 ./client localhost 5000 login
 ```
 # Результат.
-После запуска, в буффере с сервером будут отображться координаты игрока.
+После запуска, координаты игрока будут сохрнаняться на сервере. Отправка на сервер осуществляется, если координаты изменились.
 ![image](https://user-images.githubusercontent.com/69481867/219181028-3f6973c0-d4ff-410e-bba8-941942b5c9be.png)
